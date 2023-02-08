@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutaj będzie pytanie!"
+        android:layout_gravity="center"
+        android:id="@+id/questionBox"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opt1"
+        android:text="Opt1"
+        android:width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opt2"
+        android:text="Opt2"
+        android:width="200dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opt3"
+        android:text="Opt3"
+        android:width="200dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opt4"
+        android:text="Opt4"
+        android:width="200dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutaj będzie rezultat!"
+        android:layout_gravity="center"
+        android:id="@+id/resultBox"
+        android:layout_marginTop="100dp"/>
+
+</LinearLayout>
