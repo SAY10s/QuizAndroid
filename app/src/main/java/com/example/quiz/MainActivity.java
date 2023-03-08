@@ -34,5 +34,38 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        opt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(currentAnsw == 2){
+                    resultBox.setText("CORRECT ANSWER!!!");
+                }
+                else{
+                    resultBox.setText("incorrect answer :c");
+                }
+            }
+        });
+        opt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(currentAnsw == 3){
+                    resultBox.setText("CORRECT ANSWER!!!");
+                }
+                else{
+                    resultBox.setText("incorrect answer :c");
+                }
+            }
+        });
+        opt4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(currentAnsw == 4){
+                    resultBox.setText("CORRECT ANSWER!!!");
+                }
+                else{
+                    resultBox.setText("incorrect answer :c");
+                }
+            }
+        });
     }
 }
